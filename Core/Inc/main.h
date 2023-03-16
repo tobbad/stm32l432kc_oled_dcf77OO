@@ -31,7 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -57,6 +57,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define dcf_on_Pin GPIO_PIN_4
+#define dcf_on_GPIO_Port GPIOA
+#define dcf_in_Pin GPIO_PIN_5
+#define dcf_in_GPIO_Port GPIOA
+#define oled_scl_Pin GPIO_PIN_6
+#define oled_scl_GPIO_Port GPIOB
+#define oled_sda_Pin GPIO_PIN_7
+#define oled_sda_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
